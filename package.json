@@ -1,7 +1,7 @@
 {
-  "name": "@conduit/app-response",
-  "version": "1.0.0",
-  "description": "This is the conduit app response package.",
+  "name": "conduit-app-response",
+  "version": "1.0.2",
+  "description": "This is the conduit custom app-response package.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
