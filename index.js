@@ -3,13 +3,13 @@ const { hasOwnProperty } = Object.prototype;
 const Status = {
   OK: 200,
   BAD_REQUEST: 400,
-  UNAUTHORIZED: 401,
+  UNAUTHORIZED: 200,
   FORBIDDEN: 403,
-  NOT_FOUND: 404,
+  NOT_FOUND: 200,
   UNSUPPORTED_ACTION: 405,
   VALIDATION_FAILED: 422,
-  SERVER_ERROR: 500,
-  CREATED: 201
+  SERVER_ERROR: 200,
+  CREATED: 200
 };
 const jsonResponse = (res, body, options = undefined) => {
   res.status(options.status || Status.OK).json(body || null);

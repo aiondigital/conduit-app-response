@@ -1,6 +1,6 @@
 {
   "name": "conduit-app-response",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is the conduit custom app-response package.",
   "main": "index.js",
   "scripts": {
